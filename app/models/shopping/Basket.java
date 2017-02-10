@@ -22,9 +22,8 @@ public class Basket extends Model {
     private Customer customer;
 
     // Default constructor
-    public  Basket() {
+    public Basket() {
     }
-
 
     public void addProduct(Product p) {
 
@@ -49,7 +48,9 @@ public class Basket extends Model {
     }
 
 
+    public void hello(){
 
+    }
 
     public void removeItem(OrderItem item) {
 
